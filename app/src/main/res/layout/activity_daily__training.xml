@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chetan.yoga.activity.Daily_Training">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbar"
+        app:mpb_progressStyle="horizontal"
+        android:indeterminate="false"
+        android:progressBackgroundTint="@color/colorAccent"
+        android:progressTint="@color/colorPrimaryDark"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"/>
+    <ImageView
+        android:id="@+id/pictures"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="@dimen/rv_margin"
+        android:layout_marginRight="@dimen/rv_margin"
+        android:layout_marginTop="101dp"
+        android:src="@drawable/easy_pose"
+        android:layout_below="@+id/appbar"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:id="@+id/linearLayoutGetReady"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/getReady"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Ready !"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/countDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_gravity="center"
+            android:textSize="50sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="onStartExercise"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="@dimen/rv_margin"
+        android:text="start"/>
+    <TextView
+        android:id="@+id/timmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_above="@id/startButton"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimaryDark"/>
+</RelativeLayout>
+
