@@ -27,35 +27,4 @@
         <item>@drawable/warrior_pose_2</item>
     </string-array>
 
-    <string name="boatpose_desc">One of the most well-known yoga poses for core strength, Boat Pose — Navasana (nah-VAHS-uh-nuh) — tones the abdominal muscles while strengthening the low back</string>
-    <string name="boatpose_benefits">Navasana deeply challenges the abdomen, spine, and hip flexors, building strength and steadiness at the body’s core. It stimulates the abdominal organs, including the kidneys and intestines, which improves digestion. This pose also encourages healthy regulation of the thyroid and prostate glands, helping to maintain metabolism and relieve stress.
-    <string name="bow_pose_benefits">This improves posture and spinal flexibility. Additionally, the pose helps to open the chest, abdomen, quadriceps, ankles, groins, hip flexors, and throat, Energizing and invigorating the body, mind, and spirit, Bow Pose also helps to relieve fatigue, stress, and anxiety</string>
-        <string name="bowpose_desc">Dhanurasana (DAH-noo-RAH-suh-nuh) is an excellent back bending yoga pose for increasing and regaining spinal strength and flexibility. Dhanurasana also strengthens the leg muscles, especially the upper thighs, relieves stiff shoulders and reduces excess weight around the abdominal area.</string></string>
-    <String name="cobrapose_desc">Cobra Pose — Bhujangasana (boo-jahn-GAHS-uh-nuh) — is a beginning backbend in yoga that helps to prepare the body for deeper backbends. Its name comes from the Sanskrit words, "bhujanga” and "asana" (meaning "serpent" and "pose," respectively). Cobra is an essential element of Sun Salutations, and is an alternative to practicing Upward-Facing Dog (Urdhva Mukha Svanasana) in the Sun Salutations sequences.</String>
-    <String name="cobrapose_ben">Cobra Pose is best known for its ability to increase the flexibility of the spine. It stretches the chest while strengthening the spine and shoulders. It also helps to open the lungs, which is therapeutic for asthma. This pose also stimulates the abdominal organs, improving digestion.
-
-        An energizing backbend, Cobra reduces stress and fatigue. It also firms and tones the shoulders, abdomen, and buttocks, and helps to ease the pain of sciatica. Traditional yoga texts claim the pose heals the body of disease and awakens Kundalini — the divine cosmic energy that brings forth self-realization.</String>
-     <String name="cresentpose_desc">Crescent Lunge — Anjaneyasana (AHN-jah-nay-AHS-uh-nuh) — is a dynamic standing yoga pose that utilizes and integrates the muscles in your entire body. It stretches and strengthens the lower and upper body, while creating stability and balance. Its name comes from the Sanskrit words “anjaneya” (meaning “praise” or “salutation”) and “asana” (meaning “pose”). Because of this, it is sometimes referred to as “Salutation Pose,” and it is performed many times during Sun Salutation C.</String>
-    <String name="cresentpose_ben"></String>
-
-    <String name="downward_facing_dog_desc"></String>
-    <String name="downward_facing_dog_ben"></String>
-
-    <String name="easy_pose_desc"></String>
-    <String name="easy_pose_ben"></String>
-
-    <String name="half_pigeon_desc"></String>
-    <String name="half_pigeon_ben"></String>
-
-    <String name="lowlunge_desc"></String>
-    <String name="lowlunge_ben"></String>
-
-    <String name="upward_bow_desc"></String>
-    <String name="upward_bow_ben"></String>
-
-    <String name="warrior_pose_desc"></String>
-    <String name="warrior_pose_ben"></String>
-    
-    <String name="warrior_pose2_desc"></String>
-    <String name="warrior_pose2_ben"></String>
-</resources>
+   </resources>
